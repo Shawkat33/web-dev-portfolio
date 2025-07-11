@@ -9,6 +9,10 @@
 
 /* Shared Style */
 
+.secondary-bg {
+	background-color: #fff8f3;
+}
+
 .text-primary {
 	color: #fd6e0a;
 }
@@ -28,6 +32,17 @@
 	box-shadow: none;
 	outline: none;
 	border-bottom: #fd6e0a;
+}
+
+.section-title {
+	font-size: 35px;
+	font-weight: bold;
+	color: #474747;
+}
+
+.section-description {
+	font-size: 18px;
+	color: #757575;
 }
 
 /* Header Styles */
@@ -80,15 +95,40 @@ nav li a {
 	max-width: 580px;
 }
 
-banner-greetings {
+.banner-greetings {
 	font-size: 45px;
 	font-weight: 600;
 }
 
-banner-title {
+.banner-title {
 	font-size: 85px;
 	font-weight: bold;
 }
 
 .banner-profile-pic {
+}
+
+/* Main Styles */
+
+main {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* About Styles */
+
+.about {
+	border-radius: 10px;
+	padding: 131px 156px;
+	text-align: center;
+	margin-top: 130px;
+}
+
+.about-items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item-description {
+	font-weight: 600;
 }
