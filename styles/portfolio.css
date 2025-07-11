@@ -45,6 +45,10 @@
 	color: #757575;
 }
 
+.text-center {
+	text-align: center;
+}
+
 /* Header Styles */
 
 .header {
@@ -115,13 +119,17 @@ main {
 	margin: 0 auto;
 }
 
+main section {
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+
 /* About Styles */
 
 .about {
 	border-radius: 10px;
 	padding: 131px 156px;
 	text-align: center;
-	margin-top: 130px;
 }
 
 .about-items {
@@ -131,4 +139,20 @@ main {
 
 .item-description {
 	font-weight: 600;
+}
+
+/* Skills Style Section */
+
+.section-description {
+	padding: 0px 116px 50px;
+}
+
+.skills-container {
+	display: flex;
+	gap: 24px;
+}
+
+.skill {
+	padding: 104px 33px 30px;
+	box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 6%);
 }
