@@ -153,6 +153,7 @@ main section {
 }
 
 .skill {
-	padding: 104px 33px 30px;
+	padding: 30px 33px 30px;
+	border-radius: 5px;
 	box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 6%);
 }
